@@ -1,0 +1,36 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'ikikotomasyon'
+            keyPassword '1982987'
+            storeFile file('D:/mobil uygulama/keypetson.jks')
+            storePassword '1982987'
+        }
+    }
+    compileSdkVersion 21
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId "com.ikik.otomasyon"
+        minSdkVersion 11
+        targetSdkVersion 19
+        versionName '1'
+        signingConfig signingConfigs.config
+        versionNameSuffix '1.1'
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile files('D:/otomasyon/picasso-2.5.2/picasso-2.5.2.jar')
+}

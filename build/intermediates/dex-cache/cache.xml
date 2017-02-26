@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="cdf84f40071d98ca523f5c5345dae00a363cf117">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\instant-run_48a1b4f1dd1b54a75faa9c1819a994b79f98aba7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-21.0.3_b0510a0b331d5116fd4012d32637f67ec5e60f94.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-21.0.3_2b803208673dc863c28a77b4c0e58a1bbdad5ec6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3_649ea83c5339bad37838e40897b1ddf34e8cdb9a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5a1d5021442a4fd67c87889ffe77dca57e670322">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_14833134be368537ed96b92f4e3bfdf5460af9b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\egem\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3_e9dde3faa8d3f19be0885471d56ef88545002d6c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\otomasyon\picasso-2.5.2\picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\otomasyon\app\build\intermediates\pre-dexed\debug\picasso-2.5.2_81f9acee154b76f882c456a029bb23b9b3748033.jar" />
+    </item>
+
+</items>

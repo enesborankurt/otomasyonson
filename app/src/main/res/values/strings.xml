@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">2K OTOMASYON</string>
+    <string name="hello_world">2K OTOMASYON HOŞ GELDİNİZ</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="drawer_opened">Aç</string>
+    <string name="drawer_closed">Kapat</string>
+
+</resources>

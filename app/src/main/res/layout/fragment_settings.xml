@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    tools:context="com.demo.fragments.MySettings"
+    android:weightSum="1">
+
+
+    <TextView
+        android:text="Bizleri daha yakından takip edebilirsiniz."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView4"
+        android:textSize="14sp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="20dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:src="@drawable/logo2"
+        android:layout_marginTop="100dp"
+        android:id="@+id/imageView2"
+        android:scaleType="fitCenter"
+        android:layout_height="160dp" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="faceClick"
+        android:id="@+id/button3"
+        android:layout_marginTop="140dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/face" />
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="TwitterClick"
+        android:id="@+id/button4"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/twitter"/>
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:onClick="YoutubeClick"
+        android:id="@+id/button5"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/youtube"/>
+    <Button
+        android:layout_width="50dp"
+        android:onClick="GooglePlasClick"
+        android:id="@+id/button6"
+        android:layout_marginTop="-48dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/google"
+        android:layout_weight="0.06"
+        android:layout_height="64dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="faceClick"
+        android:id="@+id/button2"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:background="@drawable/face" />
+
+
+</LinearLayout>

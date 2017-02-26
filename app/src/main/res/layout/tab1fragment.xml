@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:background="#F5F5DC"
+    tools:context="com.demo.inner.fragments.Tab1Fragment"
+    android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_height="181dp"
+        android:layout_width="match_parent">
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:layout_marginTop="7dp"
+        android:background="#F4A460"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"></LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="&#10;Villa ısıtma sistemleri&#10;  sıcak su ihtiyacınız ve evinizi verimli şekilde ısınmanızı karşılamak için geliştirdiğimiz cihazımız max:1200 wat enerji kullanarak kısa sürede evinizi ve sıcak su ihtiyacınızı karşılanması için şık ve teknolojik olarak tasarlandı,80 lt suyunuzu 90 dereceye sadece 9 dk ulaşmaktadır.&#10;&#10;
+Havuz ısıtma sistemleri&#10;
+Kapalı ve açık tip havuzlarınızı ısıtmak için yüksek fatura ödemenize gerek yok 2k ürünlerimiz sizin her türlü ihtiyacınıza göre  estedik ve şık kasalarıyla kısa sürede yüksek ısı elede ediyor bunuda sadece 9 dk 90 derece yaparken sadce 1200 wat güç harcıyor &#10;&#10;
+Sera ısıtma sistemleri&#10;
+Eski sera ısıtma siztemlerine son..yeni nesil sera ısıtma sistemleriyle sizleri ve ürünlerinizi düşünerek 2k otomasyon firması olarak uzun süre arge çalışmalarından sonra ilk ve tek olarak yüksek ısı elde eden ısı elde ederken 1 saatte max:1200 wat harcayan çok cimri ısıtıcı sistemimiz&#10;&#10;
+Sera kök ısıtma sistemleri&#10;Sera ısınmada yeni dönem başlatıyoruz bunu yaparken
+Kök ısıtıcı sistemlerimizle ürününüz daha verimli ve daha çok ürün almanıza fayda sağlayacaktır kök ısısını sabit 10 ile 15 derece seviyesinde tutan yoğuşmalı sera kök ısıtıcı ürünümüz tamamen elektronik sistemlerle yönetilmekte mobil uygulmamızı indirenler cep telefonlarıyla satın aldığı 2k ürünlerini sürekli takip eder ısıyı veyA sistemi kontrol edebilir.&#10;&#10;
+Kombi ısıma sistemleri &#10;Yüksek dogal gaz ve elektrik faturalarına son diyor ve 2kombi ısıtma sistemimizle 1 saatte 600 wat elektrik harcayarak sizlerin ihtiyacını görmesi için tasarlanmış görsel olarak normal kombi ebatlarında 304 paslanmaz gövde kaplamasıyla şık bir görünüme sahip sınıfında lider tek elektrikli çimri kombi&#10;&#10;
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:fontFamily="sans-serif-condensed" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\otomasyon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\activated.xml",
+        "source": "D:\\otomasyon\\app\\src\\main\\res\\drawable-hdpi\\activated.xml"
+    },
+    {
+        "merged": "D:\\otomasyon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\background.xml",
+        "source": "D:\\otomasyon\\app\\src\\main\\res\\drawable-hdpi\\background.xml"
+    },
+    {
+        "merged": "D:\\otomasyon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\not_activated.xml",
+        "source": "D:\\otomasyon\\app\\src\\main\\res\\drawable-hdpi\\not_activated.xml"
+    },
+    {
+        "merged": "D:\\otomasyon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo.PNG",
+        "source": "D:\\otomasyon\\app\\src\\main\\res\\drawable-hdpi\\logo.PNG"
+    },
+    {
+        "merged": "D:\\otomasyon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\logo2.PNG",
+        "source": "D:\\otomasyon\\app\\src\\main\\res\\drawable-hdpi\\logo2.PNG"
+    }
+]
